@@ -1,0 +1,17 @@
+{ "name" : "nopro"
+, "description" : "nopro is a deployment tool for multiple node.js servers on a single ip"
+, "version" : "0.0.1"
+, "homepage" : "https://github.com/stagas/nopro"
+, "author" : "George Stagas <gstagas@gmail.com> (http://stagas.com/)"
+, "repository" :
+  { "type" : "git"
+  , "url" : "https://github.com/stagas/nopro.git"
+  }
+, "dependencies": 
+  { "confu": "=0.0.3"
+  , "ministore": ">=0.0.5"
+  , "http-proxy": ">=0.5.11"
+  }
+, "bin" : { "nopro" : "./nopro.js" }
+, "engines" : { "node" : ">=0.4.7" }
+}
