@@ -345,7 +345,7 @@ function runApp (app, cb) {
   // give it some time to initialize
   setTimeout(function () {
     cb && cb(app.running)
-  }, 2000)
+  }, 4000)
 }
 
 function log () {
