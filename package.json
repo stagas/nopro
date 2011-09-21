@@ -10,7 +10,7 @@
 , "dependencies": 
   { "confu": "=0.0.3"
   , "ministore": ">=0.0.5"
-  , "http-proxy": ">=0.5.11"
+  , "http-proxy": ">=0.5.11 <0.7.0"
   }
 , "bin" : { "nopro" : "./nopro.js" }
 , "engines" : { "node" : ">=0.4.7" }
